@@ -1,0 +1,6 @@
+framework module Pods_CampusWalkTests {
+  umbrella header "Pods-CampusWalkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
