@@ -130,10 +130,14 @@
 			children = (
 				6D4E9BAD2717480C00E7DCB7 /* AppDelegate.swift */,
 				6D4E9BAF2717480C00E7DCB7 /* SceneDelegate.swift */,
-				6D4E9BB12717480C00E7DCB7 /* ViewController.swift */,
 				6D4E9BB32717480C00E7DCB7 /* Main.storyboard */,
-				6D4E9BB92717480E00E7DCB7 /* Assets.xcassets */,
 				6D4E9BBB2717480E00E7DCB7 /* LaunchScreen.storyboard */,
+				6D4E9BE42717496500E7DCB7 /* Utilities */,
+				6D4E9BE52717499800E7DCB7 /* Data Files */,
+				6D4E9BE02717490500E7DCB7 /* View Controllers */,
+				6D4E9BE12717491700E7DCB7 /* Table View Cells */,
+				6D4E9BE6271749AB00E7DCB7 /* Image Assets */,
+				6D4E9BB92717480E00E7DCB7 /* Assets.xcassets */,
 				6D4E9BBE2717480E00E7DCB7 /* Info.plist */,
 				6D4E9BB62717480C00E7DCB7 /* CampusWalk.xcdatamodeld */,
 			);
@@ -157,6 +161,58 @@
 			path = CampusWalkUITests;
 			sourceTree = "<group>";
 		};
+		6D4E9BE02717490500E7DCB7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D4E9BB12717480C00E7DCB7 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6D4E9BE12717491700E7DCB7 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6D4E9BE32717493700E7DCB7 /* Menu Cards */,
+				6D4E9BE22717492E00E7DCB7 /* Dashboard Cards */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+		6D4E9BE22717492E00E7DCB7 /* Dashboard Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Dashboard Cards";
+			sourceTree = "<group>";
+		};
+		6D4E9BE32717493700E7DCB7 /* Menu Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Menu Cards";
+			sourceTree = "<group>";
+		};
+		6D4E9BE42717496500E7DCB7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6D4E9BE52717499800E7DCB7 /* Data Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Files";
+			sourceTree = "<group>";
+		};
+		6D4E9BE6271749AB00E7DCB7 /* Image Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Image Assets";
+			sourceTree = "<group>";
+		};
 		75DE21741F3F0EB84CAD6DAD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +223,6 @@
 				59E3C55A7FA23A329DB5A3DF /* Pods-CampusWalkTests.debug.xcconfig */,
 				BA2EF2FE6439503C906AA1D6 /* Pods-CampusWalkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
