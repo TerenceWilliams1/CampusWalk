@@ -11,7 +11,6 @@
 		516B138D73E6555E8ECD59A9 /* Pods_CampusWalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35411A3A07B49E6D1E49D62A /* Pods_CampusWalk.framework */; };
 		6D4E9BAE2717480C00E7DCB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BAD2717480C00E7DCB7 /* AppDelegate.swift */; };
 		6D4E9BB02717480C00E7DCB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BAF2717480C00E7DCB7 /* SceneDelegate.swift */; };
-		6D4E9BB22717480C00E7DCB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BB12717480C00E7DCB7 /* ViewController.swift */; };
 		6D4E9BB52717480C00E7DCB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E9BB32717480C00E7DCB7 /* Main.storyboard */; };
 		6D4E9BB82717480C00E7DCB7 /* CampusWalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BB62717480C00E7DCB7 /* CampusWalk.xcdatamodeld */; };
 		6D4E9BBA2717480E00E7DCB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E9BB92717480E00E7DCB7 /* Assets.xcassets */; };
@@ -19,6 +18,14 @@
 		6D4E9BC82717480F00E7DCB7 /* CampusWalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BC72717480F00E7DCB7 /* CampusWalkTests.swift */; };
 		6D4E9BD22717480F00E7DCB7 /* CampusWalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BD12717480F00E7DCB7 /* CampusWalkUITests.swift */; };
 		6D4E9BD42717480F00E7DCB7 /* CampusWalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BD32717480F00E7DCB7 /* CampusWalkUITestsLaunchTests.swift */; };
+		6D4E9BE827174A4F00E7DCB7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BE727174A4F00E7DCB7 /* DashboardViewController.swift */; };
+		6D4E9BEB27174A9A00E7DCB7 /* MapCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BEA27174A9A00E7DCB7 /* MapCategoryViewController.swift */; };
+		6D4E9BEF27175D0500E7DCB7 /* StandardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BED27175D0500E7DCB7 /* StandardTableViewCell.swift */; };
+		6D4E9BF027175D0500E7DCB7 /* StandardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E9BEE27175D0500E7DCB7 /* StandardTableViewCell.xib */; };
+		6D4E9BF32717683500E7DCB7 /* BannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BF12717683500E7DCB7 /* BannerTableViewCell.swift */; };
+		6D4E9BF42717683500E7DCB7 /* BannerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E9BF22717683500E7DCB7 /* BannerTableViewCell.xib */; };
+		6D4E9BF727176A6E00E7DCB7 /* PosterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4E9BF527176A6E00E7DCB7 /* PosterTableViewCell.swift */; };
+		6D4E9BF827176A6E00E7DCB7 /* PosterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4E9BF627176A6E00E7DCB7 /* PosterTableViewCell.xib */; };
 		C23919687F6CC144F832376C /* Pods_CampusWalkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133722E95C6A53CD73DF3906 /* Pods_CampusWalkTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +55,6 @@
 		6D4E9BAA2717480C00E7DCB7 /* CampusWalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampusWalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4E9BAD2717480C00E7DCB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D4E9BAF2717480C00E7DCB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D4E9BB12717480C00E7DCB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D4E9BB42717480C00E7DCB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D4E9BB72717480C00E7DCB7 /* CampusWalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CampusWalk.xcdatamodel; sourceTree = "<group>"; };
 		6D4E9BB92717480E00E7DCB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +65,14 @@
 		6D4E9BCD2717480F00E7DCB7 /* CampusWalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampusWalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4E9BD12717480F00E7DCB7 /* CampusWalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusWalkUITests.swift; sourceTree = "<group>"; };
 		6D4E9BD32717480F00E7DCB7 /* CampusWalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusWalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D4E9BE727174A4F00E7DCB7 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6D4E9BEA27174A9A00E7DCB7 /* MapCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCategoryViewController.swift; sourceTree = "<group>"; };
+		6D4E9BED27175D0500E7DCB7 /* StandardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardTableViewCell.swift; sourceTree = "<group>"; };
+		6D4E9BEE27175D0500E7DCB7 /* StandardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandardTableViewCell.xib; sourceTree = "<group>"; };
+		6D4E9BF12717683500E7DCB7 /* BannerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableViewCell.swift; sourceTree = "<group>"; };
+		6D4E9BF22717683500E7DCB7 /* BannerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerTableViewCell.xib; sourceTree = "<group>"; };
+		6D4E9BF527176A6E00E7DCB7 /* PosterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterTableViewCell.swift; sourceTree = "<group>"; };
+		6D4E9BF627176A6E00E7DCB7 /* PosterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PosterTableViewCell.xib; sourceTree = "<group>"; };
 		802D15FA29F97E21593694D4 /* Pods-CampusWalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusWalk.debug.xcconfig"; path = "Target Support Files/Pods-CampusWalk/Pods-CampusWalk.debug.xcconfig"; sourceTree = "<group>"; };
 		8CDAD464BF57A8568100C7B9 /* Pods-CampusWalk-CampusWalkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusWalk-CampusWalkUITests.release.xcconfig"; path = "Target Support Files/Pods-CampusWalk-CampusWalkUITests/Pods-CampusWalk-CampusWalkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		97FF3F383E9E1492AECF19F9 /* Pods-CampusWalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CampusWalk.release.xcconfig"; path = "Target Support Files/Pods-CampusWalk/Pods-CampusWalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,7 +178,8 @@
 		6D4E9BE02717490500E7DCB7 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6D4E9BB12717480C00E7DCB7 /* ViewController.swift */,
+				6D4E9BE927174A5D00E7DCB7 /* Dashboard */,
+				6D4E9BEC27174AA300E7DCB7 /* Maps */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -181,6 +196,12 @@
 		6D4E9BE22717492E00E7DCB7 /* Dashboard Cards */ = {
 			isa = PBXGroup;
 			children = (
+				6D4E9BED27175D0500E7DCB7 /* StandardTableViewCell.swift */,
+				6D4E9BEE27175D0500E7DCB7 /* StandardTableViewCell.xib */,
+				6D4E9BF12717683500E7DCB7 /* BannerTableViewCell.swift */,
+				6D4E9BF22717683500E7DCB7 /* BannerTableViewCell.xib */,
+				6D4E9BF527176A6E00E7DCB7 /* PosterTableViewCell.swift */,
+				6D4E9BF627176A6E00E7DCB7 /* PosterTableViewCell.xib */,
 			);
 			path = "Dashboard Cards";
 			sourceTree = "<group>";
@@ -211,6 +232,22 @@
 			children = (
 			);
 			path = "Image Assets";
+			sourceTree = "<group>";
+		};
+		6D4E9BE927174A5D00E7DCB7 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				6D4E9BE727174A4F00E7DCB7 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		6D4E9BEC27174AA300E7DCB7 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				6D4E9BEA27174A9A00E7DCB7 /* MapCategoryViewController.swift */,
+			);
+			path = Maps;
 			sourceTree = "<group>";
 		};
 		75DE21741F3F0EB84CAD6DAD /* Pods */ = {
@@ -333,8 +370,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4E9BF827176A6E00E7DCB7 /* PosterTableViewCell.xib in Resources */,
+				6D4E9BF42717683500E7DCB7 /* BannerTableViewCell.xib in Resources */,
 				6D4E9BBD2717480E00E7DCB7 /* LaunchScreen.storyboard in Resources */,
 				6D4E9BBA2717480E00E7DCB7 /* Assets.xcassets in Resources */,
+				6D4E9BF027175D0500E7DCB7 /* StandardTableViewCell.xib in Resources */,
 				6D4E9BB52717480C00E7DCB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,8 +469,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4E9BB22717480C00E7DCB7 /* ViewController.swift in Sources */,
+				6D4E9BEB27174A9A00E7DCB7 /* MapCategoryViewController.swift in Sources */,
+				6D4E9BF32717683500E7DCB7 /* BannerTableViewCell.swift in Sources */,
 				6D4E9BAE2717480C00E7DCB7 /* AppDelegate.swift in Sources */,
+				6D4E9BEF27175D0500E7DCB7 /* StandardTableViewCell.swift in Sources */,
+				6D4E9BF727176A6E00E7DCB7 /* PosterTableViewCell.swift in Sources */,
+				6D4E9BE827174A4F00E7DCB7 /* DashboardViewController.swift in Sources */,
 				6D4E9BB02717480C00E7DCB7 /* SceneDelegate.swift in Sources */,
 				6D4E9BB82717480C00E7DCB7 /* CampusWalk.xcdatamodeld in Sources */,
 			);
